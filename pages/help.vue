@@ -5,11 +5,7 @@ h1{
 }
 </style>
 <template>
-  <div>
-    <h1>Hello 111112311!</h1>
-    <router-link to="/help" data-ga="aaa">幫助</router-link>
-    <span data-ga="aaa">幫助</span>
-  </div>
+  <h1>Hello Help!</h1>
 </template>
 
 <script>
@@ -19,8 +15,6 @@ export default {
     return {
       // name: req ? 'server' : 'client'
     }
-  },
-  mounted(){
   }
 }
 </script>

@@ -4,6 +4,7 @@
     "dev": "nuxt",
     "build": "nuxt build",
     "start": "nuxt start",
+    "open": "nuxt build && nuxt start",
     "generate": "nuxt generate",
     "analyze": "nuxt build --a"
   },
